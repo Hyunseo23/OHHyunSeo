@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f4f6f8;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .sidebar {
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+    }
+
+    .sidebar h2 {
+      margin-bottom: 10px;
+      font-size: 20px;
+      border-bottom: 1px solid rgba(255,255,255,0.3);
+      padding-bottom: 5px;
+    }
+
+    .sidebar p, .sidebar li {
+      font-size: 14px;
+      margin: 5px 0;
+    }
+
+    .main {
+      padding: 20px;
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+
+    .section h2 {
+      font-size: 22px;
+      margin-bottom: 10px;
+      color: #2c3e50;
+      border-bottom: 2px solid #2c3e50;
+      display: inline-block;
+      padding-bottom: 3px;
+    }
+
+    .item {
+      margin-bottom: 15px;
+    }
+
+    .item h3 {
+      font-size: 18px;
+      color: #333;
+    }
+
+    .item span {
+      font-size: 13px;
+      color: #777;
+    }
+
+    .item p {
+      font-size: 14px;
+      margin-top: 5px;
+      line-height: 1.4;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <h1>홍길동</h1>
+      <p>Frontend Developer</p>
+
+      <h2>Contact</h2>
+      <p>Email: example@email.com</p>
+      <p>GitHub: github.com/username</p>
+
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML / CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+      </ul>
+
+      <h2>Education</h2>
+      <p>OO대학교 컴퓨터공학과</p>
+      <p>2018 - 2024</p>
+    </div>
+
+    <div class="main">
+      <div class="section">
+        <h2>Profile</h2>
+        <p>간단한 자기소개를 여기에 작성하세요. 어떤 개발자인지, 어떤 가치를 추구하는지 설명합니다.</p>
+      </div>
+
+      <div class="section">
+        <h2>Experience</h2>
+        <div class="item">
+          <h3>회사명 / 프로젝트명</h3>
+          <span>2023 - Present</span>
+          <p>여기에는 맡았던 역할과 성과를 구체적으로 작성합니다.</p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Projects</h2>
+        <div class="item">
+          <h3>프로젝트 이름</h3>
+          <span>GitHub 링크</span>
+          <p>프로젝트 설명 및 사용 기술, 결과를 작성하세요.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
